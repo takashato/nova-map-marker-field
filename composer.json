@@ -1,0 +1,30 @@
+{
+    "name": "takashato/nova-map-marker-field",
+    "description": "A Laravel Nova field.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "matanyadaev/laravel-eloquent-spatial": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Takashato\\NovaMapMarkerField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Takashato\\NovaMapMarkerField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
