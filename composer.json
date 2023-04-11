@@ -1,6 +1,6 @@
 {
     "name": "takashato/nova-map-marker-field",
-    "description": "A Laravel Nova field.",
+    "description": "A package for adding a map marker using Mapbox to Laravel Nova",
     "keywords": [
         "laravel",
         "nova"
